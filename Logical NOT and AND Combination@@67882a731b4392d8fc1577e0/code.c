@@ -9,11 +9,11 @@ int main() {
     scanf("%d",&a);
     int b;
     scanf("%d",&b);
-    if(a>!0 && b>!0){
-        printf("True");
+    if(a>0 || b>0){
+        printf("False");
     }
     else{
-        printf("False");
+        printf("True");
     }
     return 0;
 }
