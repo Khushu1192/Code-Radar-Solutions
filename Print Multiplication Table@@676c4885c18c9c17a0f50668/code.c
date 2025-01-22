@@ -10,7 +10,7 @@ int main() {
     int mod=1;
     int i;
     for(i=1;i<=10;i++){
-        mod=nxi;
+        mod=n*i;
         printf("%d x %d=%d\n",n,i,mod);
     }
     return 0;
