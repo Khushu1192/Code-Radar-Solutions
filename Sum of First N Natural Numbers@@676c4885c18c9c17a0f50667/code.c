@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int n;
-    scanf("%d",&n);
+    int N;
+    scanf("%d",&N);
     int i;
     int sum=0;
     for(i=1;i>=n;i++){
