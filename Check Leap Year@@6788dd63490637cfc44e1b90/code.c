@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int year;
-    scanf("%d",&n);
+    scanf("%d",&year);
     if(year%4==0){
         printf("Leap Year");
     }
