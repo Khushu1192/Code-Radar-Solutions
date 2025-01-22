@@ -5,6 +5,13 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+   int a;
+   int b;
+   if(a>b){
+    printf("True");
+   }
+   else{
+    printf("False");
+   }
     return 0;
 }
