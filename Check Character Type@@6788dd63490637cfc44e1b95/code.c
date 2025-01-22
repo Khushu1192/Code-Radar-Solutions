@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    printf("Vowel");
+    printf("Vowel\n");
     printf("Consonant");
     return 0;
 }
