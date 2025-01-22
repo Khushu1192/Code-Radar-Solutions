@@ -17,7 +17,7 @@ int main() {
     else if(a<b>c){
         printf("%d",b);
     }
-    else if(b<c>a){
+    else i{
         printf("%d",c);
     }
     return 0;
