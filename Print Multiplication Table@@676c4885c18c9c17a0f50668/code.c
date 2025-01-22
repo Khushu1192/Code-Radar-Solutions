@@ -11,7 +11,7 @@ int main() {
     int i;
     for(i=1;i<=10;i++){
         mod=n*i;
-        printf("%d",mod);
+        printf("%d\n",mod);
     }
     return 0;
 }
