@@ -13,7 +13,7 @@ int main() {
         for (j=1;j<=2;j++){
             printf("*");
         }
-        printf("\t\n");
+        printf("\t \n");
     }
     return 0;
 }
