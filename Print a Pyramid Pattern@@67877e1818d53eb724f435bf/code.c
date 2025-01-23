@@ -10,11 +10,11 @@ int main() {
     int i,j;
     for(i=1;i<=n;i++){
         for(j=1;j<=n;j++){
-            if(i==2 || j==2){
-                printf("*");
+            if(i==1 || j!=2){
+                printf(" ");
             }
             else{
-                printf(" ");
+                printf("*");
             }
         }
     }
