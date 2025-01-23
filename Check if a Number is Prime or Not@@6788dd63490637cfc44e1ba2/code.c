@@ -10,10 +10,10 @@ int main() {
     int i;
     for(i=2;i<=n/2;i++){
         if(i%n==0){
-            printf("Not Prime");
+            printf("Prime");
         }
         else{
-            printf("Prime");
+            printf("Not Prime");
         }
     }
     return 0;
