@@ -11,9 +11,9 @@ int main() {
     int j;
     for (i=1;i<=2;i++){
         for (j=1;j<=2;j++){
-            printf("*");
+            printf("* ");
         }
-        printf(" \n");
+        printf("\n");
     }
     return 0;
 }
