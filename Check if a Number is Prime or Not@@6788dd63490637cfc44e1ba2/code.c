@@ -8,8 +8,8 @@ int main() {
     int n;
     scanf("%d",&n);
     int i;
-    for(i=1;i<=n/2;i++){
-        if(i%n/2==0){
+    for(i=2;i<=n/2;i++){
+        if(i%n==0){
             printf("Not Prime");
         }
         else{
