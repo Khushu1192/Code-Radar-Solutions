@@ -8,7 +8,7 @@ int main() {
     int n;
     scanf("%d",&n);
     int i;
-    for(i=1;i<=n/2;i++){
+    for(i=2;i<=sqart(n);i++){
         if(i%n==0){
             printf("Prime");
         }
