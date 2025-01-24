@@ -10,8 +10,9 @@ int main() {
     int i,j,sum=1;
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            printf("%d ",j);
-            sum=1+sum;        }
+            sum=sum+1
+            printf("%d ",sum);
+        }
         printf("\n");
     }
     return 0;
