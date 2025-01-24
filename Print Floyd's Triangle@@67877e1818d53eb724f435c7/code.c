@@ -11,7 +11,7 @@ int main() {
     int sum=0;
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            sum=sum+1
+            sum=sum+1;
             printf("%d ",sum);
         }
         printf("\n");
