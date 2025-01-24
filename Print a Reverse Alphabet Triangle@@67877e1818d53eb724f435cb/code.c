@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     int i,j;
     for(i=1;i<=n;i++){
-        for(j<=i;j=1;j++){
+        for(j<=i;j=1;j--){
             printf("%c",65+j);
         }
         printf("\n");
