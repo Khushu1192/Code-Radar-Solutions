@@ -14,7 +14,7 @@ int main() {
         while(arr[i]>0){
             mod=arr[i]%10;
             sum=sum+mod;
-            n=n/10;
+            i=i/10;
     }
 }
     printf("%d",sum);
