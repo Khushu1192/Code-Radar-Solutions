@@ -2,6 +2,8 @@
 
 
 int main() {
+    int n;
+    scanf("%d",&n);
     int a[n];
     int max=n[0];
     int min=n[0];
