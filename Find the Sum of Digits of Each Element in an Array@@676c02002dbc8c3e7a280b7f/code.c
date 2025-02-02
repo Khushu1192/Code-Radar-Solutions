@@ -5,10 +5,10 @@ int main() {
     scanf("%d",&n);
     int arr[n];
     int i;
-    for(i=0;i<=n-1;i++){
+    for(i=0;i<=n;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=0;i<=n-1;i++){
+    for(i=0;i<=n;i++){
         int sum=0;
         int mod=1;
         int num=arr[i];
