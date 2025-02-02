@@ -5,7 +5,8 @@ int main() {
     int n[];
     int max=n[0];
     int min=n[0];
-    for(int i=0;i<=n-1;i++){
+    int i;
+    for(i=0;i<=n-1;i++){
         if(max>n[i]){
             max=n[i];
         }
