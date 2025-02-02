@@ -17,7 +17,7 @@ int main() {
             sum=sum+mod;
             num=num/10;
     }
-    printf("%d",sum);
+    printf("%d ",sum);
 }
 
     return 0;
