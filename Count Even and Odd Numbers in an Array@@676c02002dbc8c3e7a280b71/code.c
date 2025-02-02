@@ -19,7 +19,7 @@ int main() {
             c++;
         }
     }
-    printf("%d",count);
-    printf("%d",c);
+    printf("%d ",count);
+    printf("%d ",c);
     return 0;
 }
