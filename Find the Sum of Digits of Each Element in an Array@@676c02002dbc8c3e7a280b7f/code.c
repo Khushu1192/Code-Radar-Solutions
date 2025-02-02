@@ -11,10 +11,10 @@ int main() {
     for(i=0;i<=n-1;i++){
         int sum=0;
         int mod=1;
-    while(arr[i]>0){
-        mod=arr[i]%10;
-        sum=sum+mod;
-        n=n/10;
+        while(arr[i]>0){
+            mod=arr[i]%10;
+            sum=sum+mod;
+            n=n/10;
     }
 }
     printf("%d",sum);
