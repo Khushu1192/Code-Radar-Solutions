@@ -18,7 +18,6 @@ int main(){
     }
     int t;
     scanf("%d",&t);
-    int x=index(arr,n,t);
-    printf("%d",x);
+    printf("%d",index(arr,n,t));
     return 0;
 }
