@@ -16,7 +16,7 @@ int main(){
 void index(int arr[],int n,int t){
     int i;
     for(int i=0;i<n;i++){
-        if(arr[i]==m){
+        if(arr[i]==t){
             printf("%d",i);
             return 0;
         }
