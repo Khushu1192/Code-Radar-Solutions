@@ -1,13 +1,12 @@
 #include <stdio.h>
 int index(int arr[],int n,int t){
     int i;
-    int c=-1;
     for(int i=0;i<n;i++){
         if(arr[i]==t){
             return i;
         }
     }
-    return c;
+    return -1;
 }
 int main(){
     int n;
@@ -18,6 +17,7 @@ int main(){
     }
     int t;
     scanf("%d",&t);
-    printf("%d",index(arr,n,t));
+    int x=index(arr,n,t);
+    printf("%d",x);
     return 0;
 }
