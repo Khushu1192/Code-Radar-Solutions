@@ -18,7 +18,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int t;
-    scanf("%d",&m);
+    scanf("%d",&t);
     index(arr,n,t);
     return 0;
 }
