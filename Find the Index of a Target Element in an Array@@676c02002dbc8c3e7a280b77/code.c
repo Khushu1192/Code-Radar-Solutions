@@ -9,7 +9,7 @@ int main(){
     }
     int t;
     scanf("%d",&m);
-    int c=index(arr,n,m);
+    int c=index(arr,n,t);
     printf("%d",c);
     return 0;
 }
