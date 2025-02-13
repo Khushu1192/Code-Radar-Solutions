@@ -4,11 +4,10 @@ int index(int arr[],int n,int t){
     int c=-1
     for(int i=0;i<n;i++){
         if(arr[i]==t){
-            printf("%d",i);
             return i;
         }
     }
-    printf("%d",c);
+    return c;
 }
 int main(){
     int n;
