@@ -1,4 +1,4 @@
-#include <stido.h>
+#include <stdio.h>
 void index(int arr[],int n,int m);
 int main(){
     int n;
