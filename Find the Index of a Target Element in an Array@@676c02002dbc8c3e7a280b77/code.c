@@ -5,7 +5,7 @@ int index(int arr[],int n,int t){
     for(int i=0;i<n;i++){
         if(arr[i]==t){
             printf("%d",i);
-            return 0;
+            return i;
         }
     }
     printf("%d",c);
