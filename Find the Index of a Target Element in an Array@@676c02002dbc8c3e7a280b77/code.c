@@ -1,10 +1,11 @@
 #include <stdio.h>
-int index(int arr[],int n,int t){
+void index(int arr[],int n,int t){
     int i;
     int c=-1
     for(int i=0;i<n;i++){
         if(arr[i]==t){
-            return i;
+            printf("%d",i);
+            return 0;
         }
     }
     printf("%d",c);
