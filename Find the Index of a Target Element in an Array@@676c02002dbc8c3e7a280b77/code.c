@@ -17,7 +17,6 @@ int index(int n){
 int main(){
     int n;
     scanf("%d",&n);
-    int x=index(n);
-    printf("%d",x);
+    printf("%d",index(n));
     return 0;
 }
