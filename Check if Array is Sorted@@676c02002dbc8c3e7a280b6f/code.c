@@ -8,7 +8,7 @@ int main(){
     }
     int j=0;
     int k=1;
-    while(k<=n){
+    while(k<n){
         if(arr[j]<=arr[k]){
             k++;
             j++;
