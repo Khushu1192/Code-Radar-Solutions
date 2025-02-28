@@ -12,7 +12,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    for(int i=0;int i<=n-1;i++){
+    for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
     int k;
@@ -20,6 +20,10 @@ int main(){
     swap(arr,0,n-1);
     swap(arr,0,k-1);
     swap(arr,k,n-1);
+    
+    for(int i=0;i<=n-1;i++){
+        printf("%d ",arr[i]);
+    }
 
 
 
