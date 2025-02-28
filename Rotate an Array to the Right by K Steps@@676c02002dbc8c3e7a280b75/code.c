@@ -16,8 +16,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
-    k=k%n;
+    
     scanf("%d",&k);
+    k=k%n;
     swap(arr,0,n-1);
     swap(arr,0,k-1);
     swap(arr,k,n-1);
