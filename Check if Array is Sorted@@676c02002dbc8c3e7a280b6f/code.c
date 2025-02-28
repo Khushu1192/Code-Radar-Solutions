@@ -10,7 +10,7 @@ int main(){
     int k=1;
     while(k<=n){
         if(arr[j]<arr[k]){
-            i++;
+            k++;
             j++;
         }
         else{
